@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    for (int i = 1; i <= 4; i++)
+    int num;
+    scanf("%d", &num);
+    for (int i = 1; i <= num; i++)
     {
-        for (int j = 65; j <= 68; j++)
+        for (int j = 65; j <= num + 64; j++)
         {
             printf(" %c ", j);
         }

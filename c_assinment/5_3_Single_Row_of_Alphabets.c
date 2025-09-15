@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
-{
-    for (int i = 65; i <= 70; i++)
+{  int num;
+    scanf("%d",&num);
+    for (int i = 65; i < num+65; i++)
     {
         printf(" %c ", i);
     }

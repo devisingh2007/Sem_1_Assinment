@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
-{
-    for (int i = 1; i <= 5; i++)
+{ int num;
+    scanf("%d",&num);
+    for (int i = 1; i <= num; i++)
     {
         printf(" * ", i);
     }

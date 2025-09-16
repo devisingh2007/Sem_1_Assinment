@@ -1,17 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Elements Showcase</title>
 </head>
-<body>
-    <h1>HTML Elements Showcase – Inline vs Block</h1>
-<p> <b>Block elements</b> (e.g., &lt;div&gt;, &lt;P&gt;,  &lt;section&gt) start on a new line and stretch across the full width. They're used to build the skeleton of a page—like paragraphs, headers, or containers. <br>
- <b>Inline elements</b> (e.g., &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;) sit within lines of text and only take up as much space as needed. They're perfect for styling or linking small parts of content without breaking the flow.</p>
 
- <section>
-    <h2>Block Elements</h2>
- </section>
+<body>
+    <h1 id="#home">HTML Elements Showcase – Inline vs Block</h1>
+    <p> <b>Block elements</b> (e.g., &lt;div&gt;, &lt;P&gt;, &lt;section&gt) start on a new line and stretch across the
+        full width. They're used to build the skeleton of a page—like paragraphs, headers, or containers.
+
+    </p>
+    <p> <b>Inline elements</b> (e.g., &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;) sit within lines of text and
+        only take up as much space as needed. They're perfect for styling or linking small parts of content without
+        breaking the flow.
+    </p>
+
+    <br>
+    <br>
+    <br>
+    <p>
+        <a href="#Block_Elements">[Block Elements] </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#Inline_Elements">[Inline Elements]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#comparison">[Comparison]</a>
+    </p>
+    <br>
+    <br>
+    <br>
+    <section>
+        <h2 id="Block_Elements">[Block Elements]</h2>
+        <div>This is a &lt;div&gt; element.</div>
+        <p>The &lt;div&gt; tag is a container that holds other HTML elements. It is a block-level element</p>
+
+        <p>This is a &lt;p&gt; element representing a paragraph</p>
+        <p>The &lt;p&gt; tag defines a paragraph. It creates space before and after itself.</p>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>Headings &lt;h1&gt; to &lt;h6&gt; define section titles with decreasing importance and size.</p>
+
+        <ul>
+            <li>iteam 1</li>
+            <li>iteam 2</li>
+        </ul>
+
+        <p>&lt;ul&gt; creates an unordered list Each &lt;li&gt; is a block-level item.</p>
+
+        <ol>
+            <li>Firast iteam</li>
+            <li>second iteam</li>
+        </ol>
+        <p>&lt;ol&gt; creates an ordered list Each &lt;li&gt; is a block-level item.</p>
+
+
+        <blockquote> This is a blockquote element used for quotations.</blockquote>
+        <p>The &lt;blockquote&gt; element is used to indicate a long quotation. It is block-level</p>
+
+        <hr>
+        <p>&lt;hr&gt; inserts a horizontal rule. It is a block-level separator</p>
+
+        <table border="1">
+            <tr>
+                <td>cell 1</td>
+                <td>cell 2</td>
+            </tr>
+            <tr>
+                <td>cell 3</td>
+                <td>cell 4</td>
+            </tr>
+        </table>
+        <p>The &lt;table&gt; element creates a table. Tables are block-level structures</p>
+    </section>
+
+
+    <section>
+        <h2 id="Inline_Elements">[Inline Elements]</h2>
+
+        <p>This is a <span>span element</span> within a sentence.</p>
+        <p>&lt;span&gt; is an inline container used to group text for styling</p>
+
+        <p>Visit <a href="https://codinggita.com/">codinggita.com</a></p>
+        <p>&lt;a&gt; defines a hyperlink and is an inline element</p>
+
+        <p>This is <b>bold</b> and this is <strong>strong</strong></p>
+        <p>&lt;b&gt; and &lt;strong&gt; both make text bold, but &lt;strong&gt; adds emphasis</p>
+
+
+        <p>This is <i>italic</i> and this is <em>emphasized</em></p>
+
+        <p>&lt;i&gt; and &lt;em&gt; italicize text, but &lt;em&gt; adds semantic emphasis</p>
+
+        <p>This text is <u>underlined</u></p>
+        <P>&lt;u&gt; underlines text and is an inline element</P>
+
+        <P>Einstein's formula is E = mc<sup>2</sup></P>
+        <p>&lt;sup&gt; displays text as superscript above the baseline.</p>
+
+
+        <p>Water's chemical formula is H<sub>2</sub>O</p>
+        <p> &lt;sub&gt; displays text as subscript below the baseline</p>
+
+        <p>This is a <mark>highlighted</mark> word</p>
+        <p>&lt;mark&gt; highlights text with a yellow background by default</p>
+
+
+
+        <p>Learn what <abbr title="HyperText Markup Language">HTML</abbr> stands for</p>
+        <p>&lt;abbr&gt; defines an abbreviation with a tooltip description</p>
+
+        <P>Type <code>console.log("Hello")</code> in the browser console</P>
+        <p>&lt;code&gt; displays code in a monospace font. It's an inline elemend</p>
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1 id="comparison">Inline vs Block Comparison</h1>
+
+        <table border="1">
+            <caption>Differences Between Inline and Block Elements</caption>
+            <tr>
+                <th>Inline Elements</th>
+                <th>Block Elements</th>
+            </tr>
+            <tr>
+                <td>&lt;span&gt;</td>
+      <td>&lt;div&gt;</td>
+            </tr>
+
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>&lt;p&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;b&gt;</td>
+                <td>&lt;H1&gt; to &lt;H6&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;i&gt;</td>
+                <td>&lt;ul&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt; u&gt;</td>
+                <td>&lt; ol&gt;</td>
+            </tr>
+            <tr>
+               <td>&lt;strong&gt;</td>
+      <td>&lt;blockquote&gt;</td>
+            </tr>
+            <tr>
+               <td>&lt;em&gt;</td>
+      <td>&lt;hr&gt;</td>
+            </tr>
+            <tr>
+                 <td>&lt;code&gt;</td>
+      <td>&lt;table&gt;</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <p>
+    <a href="#top">Back to Top</a>
+  </p>
+
 </body>
+
 </html>

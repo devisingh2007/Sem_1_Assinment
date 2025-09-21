@@ -1,18 +1,20 @@
 #include<stdio.h>
 int main()
-{
-    int num;
+{ int num;
+    printf("enter the number :");
     scanf("%d",&num);
+
     for(int i=1; i<=num; i++)
-    {  
-        for(int k=1 ; k<=i; k++)
+    {
+        for( int j=1; j<=i; j++)
         {
             printf(" ");
         }
-        for( int j=1;j<=num-i+1 ; j++)
+        for(int k=65; k<=num-i+65; k++)
         {
-                printf("%d",j);
+            printf("%c",k);
         }printf("\n");
     }
+    
     return 0;
 }

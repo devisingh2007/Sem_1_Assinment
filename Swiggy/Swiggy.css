@@ -1,0 +1,62 @@
+.main
+{
+margin-left: 200px;
+}
+
+
+
+.div1
+{
+   display: flex;
+   justify-content: space-between;
+    height: 50px;
+    width: 900px;
+}
+
+.l{
+    
+ background-color: black;
+ border-radius: 100%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' fill-rule='evenodd' d='M8 7a4 4 0 1 1 8 0a4 4 0 0 1-8 0m0 6a5 5 0 0 0-5 5a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3a5 5 0 0 0-5-5z' clip-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.search
+{ display: flex;
+    justify-content: space-between;
+ width: 900px;
+ height:30px ;
+ border: 1px solid rgb(72, 71, 71);
+ padding-top: 10px;
+ padding-left: 15px;
+ font-family: sans-serif;
+ color: gray;
+ border-radius: 10px;
+}
+
+.ser{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top:10px ;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M10.77 18.3a7.53 7.53 0 1 1 7.53-7.53a7.53 7.53 0 0 1-7.53 7.53m0-13.55a6 6 0 1 0 6 6a6 6 0 0 0-6-6'/%3E%3Cpath fill='%23000' d='M20 20.75a.74.74 0 0 1-.53-.22l-4.13-4.13a.75.75 0 0 1 1.06-1.06l4.13 4.13a.75.75 0 0 1 0 1.06a.74.74 0 0 1-.53.22'/%3E%3C/svg%3E");
+    padding-right: 15px;
+padding-bottom: px;
+}
+
+.QUICKINDIAMOVEMENT
+{  margin-top:15px ;
+    background-image: url("image\ copy\ 2.png");
+    height: 300px;
+    margin-left: -15px;
+    background-size:cover;
+width: 950px;
+
+}
